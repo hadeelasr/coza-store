@@ -1,0 +1,143 @@
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .show>.nav-link{
+    color: white;
+    text-transform: capitalize;
+}
+.navbar .icon {
+    color: #fff;
+    padding-right: 25px;
+    border-right: 1px solid rgba(255 , 255,255,0.1);
+    font-size: 25px;
+}
+.navbar .icon:after{
+    content: "2";
+    background-color: #717fe0;
+    color: white;
+    position: absolute;
+    top: 9px;
+    text-align: center;
+    font-size: 12px;
+    /* right: 67px; */
+    width: 15px;
+    line-height: 15px;
+    height: 15px;
+
+}
+.navbar{
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+}
+.navbar-nav{
+    margin-left: 29px;
+}
+.nav-item{
+    padding-left: 20px;
+}
+.collapse .btn{
+    color: white;
+}
+.overlay{
+    position:absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0 ,0,0,.5);
+}
+.carousal-item{
+    position: relative;
+}
+.category-data{
+    border: 1px solid #e6e6e6;
+}
+.category-info{
+    left: 30px;
+    top: 30px;
+ }
+ .category-info a{
+     bottom: -170px;
+ }
+ .category-info a.category-two{
+   top: 170px;
+ }
+ .category-heading{
+     text-transform: uppercase;
+ }
+
+ .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+     border: 0;
+     background-color: transparent;
+ }
+ .nav-tabs .nav-link{
+     color: #000f;
+ }
+ .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: transparent;
+    isolation:auto;
+ }
+ /* .row{
+     justify-content: space-between;
+ } */
+ .tab-pane img{
+width: 100%;
+ }
+ /* footer */
+ footer ul{
+     list-style: none;
+     /* background-color: red; */
+
+ }
+ .footer{
+     padding-top: 40px;
+     height: 500px;
+ }
+ footer a , footer p{
+    color: rgb(178, 178, 178);
+    font-size: 13px;
+    line-height: 1.923;
+     
+     
+ }
+ footer a{
+    text-decoration: none;
+    text-align: left;
+    display: block;
+ }
+ footer li{
+     text-align: left;
+     /* background-color: rebeccapurple; */
+ }
+ .footer .footer-heading{
+     font-size: 15px;
+     line-height: 1.6;
+     padding-left: 32px;
+     margin-bottom: 25px;
+      }
+footer input{
+    border:none;
+    border-bottom: 1px solid rgb(178, 178, 178);
+    width: 80%;
+}
+footer i{
+    color: rgb(178, 178, 178);
+    margin-right: 15px;
+}
+.btn-footer{
+background-color:  rgb(113, 127, 224);
+border-radius: 23px;
+margin-top: 15px;
+color: white;
+padding: 10px;
+width: 60%;
+font-size: 14px;
+font-weight: bold;
+}
+.container-img{
+    width: 100%;
+    margin: auto;
+    /* background-color: red; */
+    text-align: center;
+}
+.hadeel{
+    color: royalblue;
+    text-transform: uppercase;
+    font-weight: bold;
+}
